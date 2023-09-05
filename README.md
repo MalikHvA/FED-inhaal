@@ -36,7 +36,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  https://hypebeast.com/2023/9/jjjjound-fall-winter-2023-crocs-classic-clog
+  https://hypebeast.com
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Homepagina  
