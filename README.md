@@ -71,7 +71,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="./images/Frontend Development (FED) - Breakdown schets.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
@@ -91,18 +91,37 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Deze week heb ik niet veel tijd besteed aan de html van mijn website. Kan zijn dat dit niet of niet gedetailleerd genoeg uitgewerkt is. Screenschots van mijn website en code volgen nog. (neem ook screenshots op van delen van je website en code)
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | Malik          | Jaouad             | Chloé        | Donna            |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | ...            | en dit             | en ik dit    | en dan ik dat    |
+  | ...            | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | ...            | ...                | ...          | ...              |
   | ...            | ...                | ...          | ...              |
 
+  ### Agenda punten van meeting
+
+  ### Malik
+  - Hoe moet ik een hamurger menu uitwerken in HTML?
+  - Wanneer bepaal je of iets een H2, H3 of P is?
+
+  ### Jaouad
+  - Onduidelijkheid hoe ik een stuk van een bepaald deel van de content in moet delen in html.
+  - Vraag of iets een <p> of <h3> is?
+  - Hulp nodig bij de media querries! Waar begin je?
+
+  ### Chloé
+  - Opmaak van menu zou ik in html zetten?
+  - Hoe kan ik van een h3 een link maken die niet linkt naar een pagina?
+  - Hoe kan ik de li juist aanspreken om flexbasis en flexgrow toe te passen?
+
+  ### Donna
+  - Hoe laat je een menu eruit als je erop klikt?
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
