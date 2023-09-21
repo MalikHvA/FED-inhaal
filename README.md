@@ -99,8 +99,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   | Malik          | Jaouad             | Chloé        | Donna            |
   | ---            | ---                | ---          | ---              |
-  | ...            | en dit             | en ik dit    | en dan ik dat    |
-  | ...            | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | ...            | ...                | ...          | ...              |
+  | ...            | ...                | ...          | ...              |
   | ...            | ...                | ...          | ...              |
   | ...            | ...                | ...          | ...              |
 
@@ -109,10 +109,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Malik
   - Hoe moet ik een hamurger menu uitwerken in HTML?
   - Wanneer bepaal je of iets een H2, H3 of P is?
+  - Hoe krijg ik advertenties op mijn pagina?
 
   ### Jaouad
   - Onduidelijkheid hoe ik een stuk van een bepaald deel van de content in moet delen in html.
-  - Vraag of iets een <p> of <h3> is?
+  - Vraag of iets een P of H3 is?
   - Hulp nodig bij de media querries! Waar begin je?
 
   ### Chloé
