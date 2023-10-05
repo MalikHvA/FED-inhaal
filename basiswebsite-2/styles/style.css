@@ -1,0 +1,274 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+*, *::after, *::before {
+  box-sizing:border-box;  
+}
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+	/* startje */
+	--color-text:#111;
+	--color-text-article-p:#888;
+	--color-border:#e6e6e6;
+	--color-background:#eee;
+	--color-background-footer:#f5f5f7;
+
+}
+
+/****************/
+/* JOUW STYLING */
+/****************/
+
+/* jouw code (algemene styling)*/
+html, body {
+	font-family: Helvetica Neue,helvetica,HB TC,HB JP,HB KR,arial,“segoe ui”,“microsoft jhenghei”,“microsoft mhei”,stheititc,sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4 {
+	font-weight: 500;
+	line-height: 1.3em;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+h3 {
+	font-size: 14px;
+}
+
+/*styling header*/
+header {
+	padding: .9375em 0 .9375em 0;
+}
+
+header nav {
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+	padding: 0 .9375em;
+}
+
+header nav a {
+	font-size: .75em;
+	color: var(--color-text);
+	text-decoration: none;
+}
+
+header nav a:first-of-type {
+	flex: 1;
+}
+
+header nav a:nth-child(1) img {
+	width: 10em;
+}
+
+header nav a:nth-child(3) img, a:nth-child(4) img {
+	width: 1.5em;
+	margin-left: 1em;
+}
+
+
+
+
+/*styling main*/
+main img {
+	max-width: 100%;
+}
+
+main section h2 {
+	font-size: 1.25em;
+}
+
+main section ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+/*Styling 1e section*/
+section:nth-of-type(1) {
+	margin-bottom: 90px;
+	position: relative;
+}
+
+section:nth-of-type(1) img {
+	max-width: 100% ;
+}
+
+section:nth-of-type(1) h2 {
+	position: absolute;
+	background-color: #fff;
+	top: 10.5em;
+	right: .9375em;
+	left: .9375em;
+	padding: 1em;
+	text-align: center;
+}
+
+
+
+
+/*Styling section 2*/
+section:nth-of-type(2) {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 0.625em;
+	padding: 0 .9375em;
+}
+
+section:nth-of-type(2) article {
+	font-size: .875em;
+	text-align: center;
+}
+
+
+
+
+/*Styling ("Most Hyped")/section 3.*/
+/*Onderstaand stuk code zorgt ervoor dat de afbeeldingen 
+in de section links staan van de h3*/
+
+section:nth-of-type(3) {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 0 .9375em;
+}
+
+section:nth-of-type(3) article h3 {
+	/* pixels gebruikt, omdat 0.875em niet 'translate' naar 14px*/
+	flex: 1;
+	margin-left: 1.25em;
+	text-align: left;
+}
+
+section:nth-of-type(3) article {
+	display: flex;
+	align-items: center;
+	margin-bottom: 12px;
+	/*hier pixels gebruikt, omdat anders de margin en padding niet goed vertalen*/
+	border-bottom: 1px solid var(--color-border);
+}
+
+section:nth-of-type(3) article:nth-of-type(1) {
+	padding-top: 12px;
+	border-top: 1px solid var(--color-border);
+}
+
+section:nth-of-type(3) article img {
+	height: auto;
+	width: 95px; 
+	/*hier pixels gebruikt, omdat anders niet alle afbeeldingen even groot zijn*/
+}
+
+section:nth-of-type(3) a {
+	margin-bottom: 1em;
+	text-decoration: none;
+	color: var(--color-text);
+	font-size: .875em;
+}
+
+
+
+/*Styling ("Spotlights")/section 4*/
+/*Onderstaand stuk code zorgt ervoor dat er bij deze section horizontaal
+gescrolled kan worden*/
+
+section:nth-of-type(4) h2 {
+	padding-left: .9375em;
+}
+
+section:nth-of-type(4) ul {
+	display: flex;
+	flex-wrap: nowrap;
+	overflow: auto;
+	width: 100%;
+	gap: 1em;
+	padding: .9375em;
+}
+
+section:nth-of-type(4) ul li {
+	flex: 0 0 auto;
+	width: 100%;
+}
+
+
+
+ 
+/*Styling horizonale 'ul'/section 5*/
+/*Onderstaand stuk code styled de horizontale 'ul' in mijn 4e section*/
+
+section:nth-of-type(5) ul {
+	display: flex;
+	justify-content: space-around;
+	padding: .9375em;
+	border-bottom: 1px solid var(--color-border);
+}
+
+section:nth-of-type(5) ul li a {
+	text-decoration: none;
+	color: var(--color-text);
+	font-size: 15px;
+}
+
+/*Styling algemene articles/section 6*/
+/*Onderstaand stuk code styled de algemene articles*/
+
+section:nth-of-type(6) {
+	padding: .9375em;
+}
+
+section:nth-of-type(6) p {
+	font-size: 14px;
+	color: var(--color-text-article-p);
+}
+
+
+/* styling footer*/
+
+footer {
+	background-color: var(--color-background-footer);
+	padding-top: 0.625em;
+}
+
+footer p {
+	margin: 0 0.625em 0 0;
+	text-align: center;
+	font-size: 0.625em;
+	color: #888;
+}
+
+footer p:nth-of-type(1) {
+	padding-top: 2em;
+}
+
+footer p:nth-of-type(2) {
+	padding-bottom: 2em;
+}
+
+footer nav ul{
+	list-style-type: none;
+	padding: 0 0.9375em;
+}
+
+footer nav ul li {
+	margin: 0.9375em 0 0;
+	padding: 0.9375em 0 0;
+	border-top: 1px solid var(--color-border);
+}
+
+footer nav ul li a {
+	text-decoration: none;
+	color: var(--color-text);
+	font-size: 0.875em;
+	font-weight: 500;
+}

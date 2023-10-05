@@ -94,6 +94,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Deze week heb ik niet veel tijd besteed aan de html van mijn website. Kan zijn dat dit niet of niet gedetailleerd genoeg uitgewerkt is. Screenschots van mijn website en code volgen nog. (neem ook screenshots op van delen van je website en code)
 
 
+
   ### Agenda voor meeting
   samen met je groepje opstellen
 
@@ -107,7 +108,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda punten van meeting
 
   ### Malik
-  - Hoe moet ik een hamurger menu uitwerken in HTML?
+  - Hoe moet ik een hamburger menu uitwerken in HTML?
   - Wanneer bepaal je of iets een H2, H3 of P is?
   - Hoe krijg ik advertenties op mijn pagina?
 
@@ -125,7 +126,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - Hoe laat je een menu eruit als je erop klikt?
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
+  In eerste instantie dacht ik dat we als groep al veel meer gedaan moesten hebben dan alleen de basis HTML, ik dacht namelijk dat er ook al een gedeelte styling gedaan moest zijn.
+
+  Ik liep dus toch goed op schema, de html van mijn eerste pagina was in orde.
 
   - punt 1
   - punt 2
@@ -144,21 +147,51 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  HTML: Een groot gedeelte van mijn HTML is al bekeken door student-assistenten in de werkgroep van dinsdag 3 oktober. De reacties op mijn HTML waren positief, er waren slechts een aantal verbeterpunten m.b.t. specificering van mijn code.
+
+  CSS: Qua CSS heb ik aardig mijn weg kunnen vinden, om hopelijk mijn gekozen website zo veel mogelijk op het origineel te laten lijken (uiteraard met een betere code overall). 
+  
+  Mijn vragen m.b.t. headings, menu's en advertenties zijn beantwoord. Headings blijven voor mijn pagina een vraagpunt, omdat er veel verschillende kopjes te vinden zijn. Met het hamburger menu ga ik de aankomende week aan de slag, voor de advertenties zullen er dummie foto's gebruikt worden.
+
+  Onderstaande afbeeldingen zijn foto's van mijn code op dit moment:
+
+  HTML:
+  <img src="./readme-images/malik_van_samson_html_vgs_week1_afb_1.png" width="auto" alt="html malik van samson">
+  <img src="./readme-images/malik_van_samson_html_vgs_week1_afb_2.png" width="auto" alt="html malik van samson">
+  <img src="./readme-images/malik_van_samson_html_vgs_week1_afb_3.png" width="auto" alt="html malik van samson">
+
+  CSS:
+  <img src="./readme-images/malik_van_samson_css_vgs_week1_afb_1.png" width="auto" alt="html malik van samson">
+  <img src="./readme-images/malik_van_samson_css_vgs_week1_afb_2.png" width="auto" alt="html malik van samson">
+  <img src="./readme-images/malik_van_samson_css_vgs_week1_afb_3.png" width="auto" alt="html malik van samson">
+  <img src="./readme-images/malik_van_samson_css_vgs_week1_afb_4.png" width="auto" alt="html malik van samson">
+  <img src="./readme-images/malik_van_samson_css_vgs_week1_afb_5.png" width="auto" alt="html malik van samson">
+  <img src="./readme-images/malik_van_samson_css_vgs_week1_afb_6.png" width="auto" alt="html malik van samson">
+  <img src="./readme-images/malik_van_samson_css_vgs_week1_afb_7.png" width="auto" alt="html malik van samson">
 
 
-  ### Agenda voor meeting
-  samen met je groepje opstellen
+  ### Agenda punten van meeting
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  ### Malik
+  - Hoe zorg ik ervoor dat mijn gehele pagina, op uitzondering van één element dezelfde padding krijgt?
+  - Hoe zorg ik ervoor dat EM juist wordt vertaald naar PX?
 
+  ### Jaouad
+  - Loop helemaal vast met CSS.
+  - Zijwaarts scrollen voorkomen.
+  - Positionering van content.
+  - Custom font pakt hij niet.
+  - Afbeeldingen sizen naar section/grid?
+  - Position absolute/relative gaat niet goed.
+
+  ### Chloé
+  - Hoe zorg ik ervoor dat mijn <form> de juiste grote is aan de hand van grid?
+
+  ### Donna
+  - 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
+  *hier invullen
 
   - punt 1
   - punt 2
