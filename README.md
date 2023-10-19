@@ -188,7 +188,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - Hoe zorg ik ervoor dat mijn <form> de juiste grote is aan de hand van grid?
 
   ### Donna
-  - 
+  - hoe krijg je een font want niet online beschikbaar is erin?
+  - de hele pagina de goede grootte maken
+  - menu in en uit late klappen
 
   ### Verslag van meeting
   *hier invullen
@@ -224,18 +226,28 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Afgelopen week heb ik niet heel veel tijd gehad om te coderen, gelukkig heb ik wel eindelijk mijn grid onder controle en begrijp ik het volledig.
 
+  In de les van dinsdag, 17 oktober heeft Sanne mij geholpen de puntjes op de i te zetten m.b.t. het versimpelen van mijn website. Denk dan aan het inkorten van sections/unordered list items.
 
-  ### Agenda voor meeting
-  samen met je groepje opstellen
+  Op dit moment ben ik bezig met het uitwerken van het laatste gedeelte van mijn eerste pagina, dit betreft een aantal artikelen en het volledig responsive maken van mijn website, exact zoals het gebeurd op de website van Hypebeast.
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  Om dit mogelijk te maken heb ik de onderstaande agendapunten toegevoegd voor deze week.
 
+  ### Agenda punten van meeting
+
+  ### Malik
+  - Hoe kan ik ervoor zorgen dat mijn H3 met een absolute positioning mee schaalt, zodat het responsive is?
+  - Hoe kan ik ervoor zorgen dat een section met list items alleen mee schaalt in de breedte en niet in de hoogte?
+
+  ### Jaouad
+  - 
+
+  ### Chloé
+  - 
+
+  ### Donna
+  - Hoe krijg ik een uitklapbare lijst in een hamburger menu ?
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen

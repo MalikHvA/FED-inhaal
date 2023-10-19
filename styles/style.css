@@ -15,7 +15,6 @@
 	--color-border:#e6e6e6;
 	--color-background:#eee;
 	--color-background-footer:#f5f5f7;
-
 }
 
 /****************/
@@ -35,21 +34,49 @@ h1, h2, h3, h4 {
 }
 
 h2 {
-	font-size: 20px;
+	margin: 0;
+	font-size: 1.25em;
 }
 
 h3 {
-	font-size: 14px;
+	margin: 0;
+	font-size: .875em;
+}
+
+img {
+	max-width: 100%;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	font-size: .875em;
+	text-decoration: none;
+	color: var(--color-text);
+}
+
+
+/* styling main */
+
+main > a {
+	display: block;
+	text-align: center;
+	padding: .625em 0 1.25em;
 }
 
 /*styling header*/
+
 header {
 	padding: .9375em 0 .9375em 0;
+	max-height: 3em;
 }
 
 header nav {
 	display: flex;
-	align-items: center;
 	text-transform: uppercase;
 	padding: 0 .9375em;
 }
@@ -76,161 +103,169 @@ header nav a:nth-child(3) img, a:nth-child(4) img {
 
 
 
-/*styling main*/
-main img {
-	max-width: 100%;
+section:nth-of-type(1) ul {
+	margin:0;
+	padding:0;
+
+	display: grid;
+	grid-template-columns: 1em 1fr 1em 1fr 1em;
+	row-gap: 1em;
 }
 
-main section h2 {
+/* hero */
+section:nth-of-type(1) ul li:nth-of-type(1) {
+	grid-column: 1/-1;
+	position: relative;
+	padding-bottom: 3em;
+}
+
+section:nth-of-type(1) ul li:nth-of-type(1) h3 {
+	position: absolute;
+	top: 10em;
+	right: .75em;
+	left: .75em;
+
+	background-color: #fff;
+	padding: 0.9375em 0.625em;
+
+	text-align: center;
 	font-size: 1.25em;
 }
 
-main section ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
+section:nth-of-type(1) ul li:nth-of-type(1) a {
+	display:block;
 }
 
+section:nth-of-type(1) ul li:nth-of-type(1) a img {
+	display: block;
+	width:100%;
+}
 
+/* losers */
 
+section:nth-of-type(1) ul li:nth-of-type(2){
+	grid-column: 2/3;
+}
 
-/*Styling 1e section*/
-section:nth-of-type(1) {
-	margin-bottom: 90px;
+section:nth-of-type(1) ul li:nth-of-type(3){
+	grid-column: 4/5;
+}
+
+section:nth-of-type(1) ul li:nth-of-type(2),
+section:nth-of-type(1) ul li:nth-of-type(3) {
 	position: relative;
+	display: flex;
+	flex-direction: column-reverse;
+	row-gap: 1em;
 }
 
-section:nth-of-type(1) img {
-	max-width: 100% ;
-}
-
-section:nth-of-type(1) h2 {
-	position: absolute;
-	background-color: #fff;
-	top: 10.5em;
-	right: .9375em;
-	left: .9375em;
-	padding: 1em;
+section:nth-of-type(1) ul li:nth-of-type(2) h2,
+section:nth-of-type(1) ul li:nth-of-type(3) h2 {
+	font-size: .875em;
 	text-align: center;
 }
 
+section:nth-of-type(1) ul li:nth-of-type(2) a,
+section:nth-of-type(1) ul li:nth-of-type(3) a {
+	display:block;
+}
+
+section:nth-of-type(1) ul li:nth-of-type(2) a img,
+section:nth-of-type(1) ul li:nth-of-type(3) a img {
+	display: block;
+	width:100%;
+}
+
+section:nth-of-type(1) ul li:nth-of-type(4) {
+	grid-column: 2/5;
+}
+
+section:nth-of-type(1) ul li:nth-of-type(4) ul {
+	display: grid;
+	grid-template-columns: 5.9375em 1fr;
+}
 
 
 
-/*Styling section 2*/
+
+/*styling section 1, 2, 3*/
+
+section:nth-of-type(1) > h2 {
+	display: none;
+	visibility: hidden;
+}
+
+section:nth-of-type(1) a {
+	grid-column: 1 / span 3;
+}
+
 section:nth-of-type(2) {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-column-gap: 0.625em;
-	padding: 0 .9375em;
+	grid-template-columns: 1em 1fr 1em;
+	padding: 0.875em 0;
 }
 
-section:nth-of-type(2) article {
-	font-size: .875em;
-	text-align: center;
+section:nth-of-type(2) h2 {
+	padding-bottom: 0.75em;
+    border-bottom: 0.0625em solid var(--color-border);
+
+	grid-column: 2/3;
 }
 
+section:nth-of-type(2) ul {
+	grid-column: 2/3;
+	padding-top: .75em;
 
+	display:grid;
+	row-gap: 1em;
+}
 
-
-/*Styling ("Most Hyped")/section 3.*/
-/*Onderstaand stuk code zorgt ervoor dat de afbeeldingen 
-in de section links staan van de h3*/
-
-section:nth-of-type(3) {
+section:nth-of-type(2) ul li {
 	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	padding: 0 .9375em;
+	flex-direction: row-reverse;
+	justify-content:start;
+	column-gap: 1em;
+	border-bottom: 0.0625em solid var(--color-border);
+    padding-bottom: .75em;
+} 
+
+section:nth-of-type(2) a {
+	max-width: 27.5%;
 }
 
-section:nth-of-type(3) article h3 {
-	/* pixels gebruikt, omdat 0.875em niet 'translate' naar 14px*/
-	flex: 1;
-	margin-left: 1.25em;
-	text-align: left;
-}
-
-section:nth-of-type(3) article {
+section:nth-of-type(3) ul {
 	display: flex;
-	align-items: center;
-	margin-bottom: 12px;
-	/*hier pixels gebruikt, omdat anders de margin en padding niet goed vertalen*/
-	border-bottom: 1px solid var(--color-border);
+    flex-wrap: nowrap;
+    overflow: auto;
+    width: 100%;
+    gap: 1em;
+    padding: 0.875em;
 }
 
-section:nth-of-type(3) article:nth-of-type(1) {
-	padding-top: 12px;
-	border-top: 1px solid var(--color-border);
+section:nth-of-type(3) ul li {
+    flex: 0 0 auto;
+    width: 100%;
 }
 
-section:nth-of-type(3) article img {
-	height: auto;
-	width: 95px; 
-	/*hier pixels gebruikt, omdat anders niet alle afbeeldingen even groot zijn*/
+section:nth-of-type(3) h2 {
+	padding: 0 .875em;
 }
 
-section:nth-of-type(3) a {
-	margin-bottom: 1em;
-	text-decoration: none;
-	color: var(--color-text);
-	font-size: .875em;
+section:nth-of-type(3) h3 {
+	font-size: 1.125em;
 }
 
-
-
-/*Styling ("Spotlights")/section 4*/
-/*Onderstaand stuk code zorgt ervoor dat er bij deze section horizontaal
-gescrolled kan worden*/
-
-section:nth-of-type(4) h2 {
-	padding-left: .9375em;
-}
-
-section:nth-of-type(4) ul {
-	display: flex;
-	flex-wrap: nowrap;
-	overflow: auto;
-	width: 100%;
-	gap: 1em;
-	padding: .9375em;
-}
-
-section:nth-of-type(4) ul li {
-	flex: 0 0 auto;
-	width: 100%;
-}
-
-
-
- 
-/*Styling horizonale 'ul'/section 5*/
-/*Onderstaand stuk code styled de horizontale 'ul' in mijn 4e section*/
-
-section:nth-of-type(5) ul {
-	display: flex;
-	justify-content: space-around;
-	padding: .9375em;
-	border-bottom: 1px solid var(--color-border);
-}
-
-section:nth-of-type(5) ul li a {
-	text-decoration: none;
-	color: var(--color-text);
-	font-size: 15px;
-}
-
-/*Styling algemene articles/section 6*/
-/*Onderstaand stuk code styled de algemene articles*/
-
-section:nth-of-type(6) {
-	padding: .9375em;
-}
-
-section:nth-of-type(6) p {
-	font-size: 14px;
-	color: var(--color-text-article-p);
-}
+/* 
+@media (width > 62em) {
+	main {
+		grid-template-columns:1.5em 1fr 1.5em 1fr 1.5em;
+	}
+	
+	section:nth-of-type(3) {
+		grid-column-start:4;
+		grid-column-end:5;
+	}
+} */
 
 
 /* styling footer*/
@@ -256,7 +291,6 @@ footer p:nth-of-type(2) {
 }
 
 footer nav ul{
-	list-style-type: none;
 	padding: 0 0.9375em;
 }
 
