@@ -130,13 +130,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Ik liep dus toch goed op schema, de html van mijn eerste pagina was in orde.
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
-
-</details>
-
 
 
 
@@ -192,16 +185,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - de hele pagina de goede grootte maken
   - menu in en uit late klappen
 
-  ### Verslag van meeting
-  *hier invullen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
-
-</details>
-
 
 
 
@@ -249,14 +232,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Donna
   - Hoe krijg ik een uitklapbare lijst in een hamburger menu ?
 
-  ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
-
 </details>
 
 
@@ -269,19 +244,37 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="./images/eind/Responsive_Mobiel.png" width="375px" alt="uitomst opdracht 1">
+  <img src="./images/eind/Responsive_Tablet.png" width="" alt="uitomst opdracht 1">
+  <img src="./images/eind/Responsive_Tablet_2.png" width="" alt="uitomst opdracht 1">
+  <img src="./images/eind/Responsive_Laptop.png" width="" alt="uitomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Ik heb ongelovelijk veel geleerd in de afgelopen paar maanden en onwijs veel code geschreven. Desondanks heb ik nog steeds een haat liefde relatie met coderen overall, wel heb ik veel momenten van freugde gekend als mijn code eenmaal stond zoals ik wou. 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  Met een duwtje in de rug van Sanne en de studentassistenten heb ik het grid onder controle weten te krijgen en daardoor mijn website volledig responsive kunnen maken. Hiernaast heb ik het geheel goed kunnen stylen binnen CSS. Met bloed zweet en tranen heb ik twee pagina's in elkaar weten te zetten zonder enige foutmeldingen.
+
+  Ik ben ervan overtuigd dat mijn websitestructuur beter gebouwd en te begrijpen is dan de originele website. Ik ben er tevreden mee.
+
+  Hieronder screenshots van mijn 2e pagina
+
+  <img src="./images/eind/P2Responsive_Mobiel.png" width="" alt="uitomst opdracht 1">
+  <img src="./images/eind/P2Responsive_Tablet.png" width="" alt="uitomst opdracht 1">
+  <img src="./images/eind/P2Responsive_Tablet_2.png" width="" alt="uitomst opdracht 1">
+  <img src="./images/eind/P2Responsive_Laptop.png" width="" alt="uitomst opdracht 1">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Deadline:
+  Helaas is het mij niet gelukt op tijd te deadline voor de herkansing te behalen. Dit mede omdat ik vastliep met mijn laatste belangrijke stappen binnen mijn code, hiernaast ben ik vorige week gestart met stage en heb ik dit niet goed gepland met mijn deadline.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  Website:
+  Vanwege tijdnood heb ik mijn eerste grid op de homepagina niet kunnen uitwerken zoals het origineel. Ook had ik meer content willen toevoegen om het nog completer te maken.
+
+  Verder had ik graag meer aandacht gestoken in kleine interacties op mijn home en artikelpagina zelf, Nu heb ik slechts bij mijn footer en in mijn hamburger menu mini interacties met Javascript.
+
+  Tot slot heb ik onwijs veel code geschreven, zowel in mijn HTML als in mijn CSS. Ik weet zeker dat dit met veel minder regels had gekund, om mijn website voor nu staande te houden heb ik dit niet aangepast.
 </details>
 
 
@@ -297,8 +290,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. 1e grid homepagina: https://codepen.io/MalikHvA/pen/VwqVmPX - Sanne 't Hoofd
+  2. Afbeeldingen: https://hypebeast.com 
+  3. PX to EM converter: https://nekocalc.com/px-to-em-converter 
+  4. Social media iconen: https://www.svgrepo.com/
 
 </details>
